@@ -1,0 +1,67 @@
+.login-card{
+    height: 100vh;
+    width: 35vw;
+
+}
+.login-container{
+    height:100%;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    mat-card-header{
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        .title{
+            font-size: 4.5vh;
+            text-align: center;
+            margin-bottom:10%;
+        }
+        .subtitle{
+            font-size: 3vh;
+        }
+    }
+    .login-form{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 60vh;
+    }
+    mat-form-field{
+        width: 30vw;
+        height: 15%;
+        font-size: 1vw;
+}
+
+.lastName{
+    width: 45%;
+    
+}
+.lastnameContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.login{
+    margin-top: 5%;
+    width: 30vw;
+    font-weight: bold;
+    font-size: 1vw;
+}
+
+.check-box{
+    width: 27vw;
+    text-align: start;
+    font-size: .9vw;
+}
+}
+
+mat-divider{
+    margin-top: 2.5%;
+}

@@ -1,0 +1,9 @@
+<app-header></app-header>
+<p *ngIf="! userLoginOn">Usuario no autenticado!</p>
+
+<p *ngIf="userLoginOn">Usuario autenticado</p>
+
+
+<div *ngIf="userLoginOn">
+<p>token: {{userData?.token}}</p>
+</div>

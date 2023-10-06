@@ -1,0 +1,39 @@
+.main-container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65vw;
+    background-image: url('../../../assets/img/Vector.svg');
+
+    .info{
+        margin-left: 5%;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    p{font-size: 1.5rem;
+    font-weight: bold;}
+}
+.right-side{
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    width: 35%;
+    display: flex;
+    position: absolute;
+    z-index: 100;
+    justify-content: flex-end;
+    img{
+        width: 17%;
+    }
+}
